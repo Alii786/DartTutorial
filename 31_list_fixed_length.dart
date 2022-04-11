@@ -7,7 +7,7 @@ void main() {
 	// Elements:    N   N   N   N   N
 	// Index:       0   1   2   3   4
 
-	List<int> numbersList = List(5);        // Fixed-length list
+	var numbersList = List<int>.filled(5, 0);        // Fixed-length list
 	numbersList[0] = 73;  // Insert operation
 	numbersList[1] = 64;
 	numbersList[3] = 21;
